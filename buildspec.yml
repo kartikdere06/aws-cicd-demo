@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - echo "Building AWS CI/CD project"
+
+artifacts:
+  files:
+    - index.html
